@@ -1,0 +1,94 @@
+.add-doctor-page {
+  background-color: #fff;
+  max-width: 600px;
+  margin: 35px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+  color: #000;
+}
+
+.add-doctor-page h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #000;
+}
+
+.add-doctor-error {
+  background-color: #f8d7da;
+  color: #000;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #f5c6cb;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.add-doctor-success {
+  background-color: #d4edda;
+  color: #000;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #c3e6cb;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.add-doctor-form-section {
+  max-width: 500px;
+  margin: 0 auto 20px;
+}
+
+.add-doctor-form-section h2 {
+  text-align: center;
+  margin-bottom: 15px;
+  color: #000;
+}
+
+.add-doctor-form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.add-doctor-group {
+  margin-bottom: 15px;
+}
+
+.add-doctor-group label {
+  display: block;
+  margin-bottom: 3px;
+  color: #000;
+  font-weight: bold;
+}
+
+.add-doctor-group input,
+.add-doctor-group select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: #000;
+  box-sizing: border-box;
+}
+
+.add-doctor-btn {
+  width: 100%;
+  background-color: #33b48b;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 15px;
+  display: inline-block;
+}
+
+.add-doctor-btn:hover {
+  background-color: #2a9d7a;
+}
