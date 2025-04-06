@@ -16,6 +16,7 @@ import ViewPatients from './Pages/ViewPatients';
 import ViewMedicines from './Pages/ViewMedicines';
 import UpdateMedicineStock from './Pages/UpdateMedicineStock';
 import AddMedicine from './Pages/AddMedicine';
+import ExpiredMedicines from './Pages/ExpiredMedicines';
 import Login from './Pages/Login';
 import AdminLogin from './Pages/AdminLogin';
 import Footer from './Components/Footer';
@@ -37,7 +38,7 @@ function App() {
             <Route path="/doctor-assigning" element={<DoctorAssigning />} />
             <Route path="/doctor-prescription" element={<DoctorPrescription />} />
             <Route path="/medicine-pickup" element={<MedicinePickup />} />
-            <Route path="/medicine-verification" element={<MedicineVerification />} />
+            {/* <Route path="/medicine-verification" element={<MedicineVerification />} /> */}
             <Route path="/add-doctor" element={<AddDoctor />} />
             <Route path="/doctor-availability" element={<DoctorAvailability />} />
             <Route path="/view-patients" element={<ViewPatients />} />
@@ -45,6 +46,7 @@ function App() {
             <Route path="/update-medicine-stock" element={<UpdateMedicineStock />} />
             <Route path="/add-new-medicine" element={<AddMedicine />} />
             <Route path='/get-doctors' element={<ViewDoctors />} />
+            <Route path="/expired-medicines" element={<ExpiredMedicines />} />
           </Routes>
         </div>
         <Footer />
